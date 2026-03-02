@@ -1,5 +1,4 @@
 import React from 'react';
-import Profile from '../assets/profile.svg';
 
 const About = () => {
   return (

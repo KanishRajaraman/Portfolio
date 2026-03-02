@@ -11,13 +11,15 @@ const Contact = () => {
         
         <div className="flex flex-col md:flex-row gap-6 justify-center">
           <a 
-            href="mailto:your.email@example.com" 
+            href="mailto:kanishrajaraman@gmail.com?subject=Reaching%20out%20from%20Portfolio" 
+            target="_blank"
+            rel="noreferrer" 
             className="flex items-center justify-center gap-3 px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold hover:bg-blue-700 transition-all"
           >
             Send an Email
           </a>
           <a 
-            href="https://linkedin.com/in/yourprofile" 
+            href="https://www.linkedin.com/in/kanishrajaraman/" 
             target="_blank" 
             rel="noreferrer"
             className="flex items-center justify-center gap-3 px-8 py-4 border-2 border-gray-200 text-gray-700 rounded-2xl font-bold hover:border-blue-600 hover:text-blue-600 transition-all"

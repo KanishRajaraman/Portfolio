@@ -38,17 +38,6 @@ const Contact = () => {
 
           {/* LinkedIn Button */}
           <a 
-<<<<<<< HEAD
-=======
-            href="mailto:kanishrajaraman@gmail.com?subject=Reaching%20out%20from%20Portfolio" 
-            target="_blank"
-            rel="noreferrer" 
-            className="flex items-center justify-center gap-3 px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold hover:bg-blue-700 transition-all"
-          >
-            Send an Email
-          </a>
-          <a 
->>>>>>> b0eb9655092e2ce41dd4c33389795b3404319dab
             href="https://www.linkedin.com/in/kanishrajaraman/" 
             target="_blank" 
             rel="noreferrer"

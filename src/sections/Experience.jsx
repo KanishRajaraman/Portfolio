@@ -8,7 +8,7 @@ const Experience = () => {
       <div className="max-w-7xl mx-auto">
         <SectionTitle 
           title="My Journey" 
-          subtitle="A timeline of my History." 
+          subtitle="A chronological look at my evolution from a curious student to an AI & Software Engineer. This timeline captures the milestones of my technical growth." 
         />
 
         {/* Timeline Container */}

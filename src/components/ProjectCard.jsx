@@ -21,7 +21,7 @@ const ProjectCard = ({ project }) => {
             </span>
           ))}
         </div>
-        <a href={project.link} className="text-blue-600 font-bold text-sm flex items-center group">
+<a href={project.link} target="_blank" rel="noopener noreferrer" className="text-blue-600 font-bold text-sm flex items-center group">
           Explore Project 
           <span className="ml-2 group-hover:translate-x-1 transition-transform">→</span>
         </a>

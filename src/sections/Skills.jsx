@@ -3,10 +3,10 @@ import SectionTitle from '../components/SectionTitle';
 
 const Skills = () => {
   const skills = [
-    { category: "Languages", items: ["Python", "JavaScript (ES6+)", "C++", "R"] },
-    { category: "Frameworks/Web", items: ["React", "Node.js", "Express", "Tailwind CSS"] },
-    { category: "AI & Robotics", items: ["TensorFlow", "Scikit-Learn", "Pandas", "ROS 2"] },
-    { category: "Tools", items: ["Git", "Docker", "MongoDB", "Arduino"] }
+    { category: "Languages", items: ["Python", "SQL", "C++"] },
+    { category: "Frameworks/Web", items: ["React", "Node.js", "HTML/CSS"] },
+    { category: "AI & Robotics", items: ["TensorFlow", "Scikit-Learn", "Pytorch", "ROS 2"] },
+    { category: "Tools", items: ["Git", "Raspberry pi", "MongoDB", "Arduino"] }
   ];
 
   return (

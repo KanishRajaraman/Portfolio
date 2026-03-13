@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
         <div>
           <h2 className="text-2xl font-bold">Kanish R</h2>
-          <p className="text-gray-400 mt-2">AI & Data Science Student | NCC Cadet</p>
+          <p className="text-gray-400 mt-2">AI & Data Science Engineer</p>
         </div>
         <div className="flex gap-6">
             <a href="https://github.com/KanishRajaraman" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="bg-white p-2 rounded-full shadow hover:bg-gray-100">

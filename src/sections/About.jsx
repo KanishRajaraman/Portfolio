@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <section className="py-24 px-6 bg-white" id="about">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Text and Content */}
         <div className="space-y-6">
           <h2 className="text-4xl font-bold text-gray-900">About Me</h2>
@@ -41,6 +41,18 @@ const About = () => {
                 <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v14H0V8zm7 0h4.8v1.93h.07c.67-1.27 2.3-2.61 4.73-2.61C22.2 7.32 24 9.65 24 13.62V22h-5v-7.03c0-1.68-.03-3.83-2.33-3.83-2.33 0-2.69 1.82-2.69 3.7V22H7V8z" />
               </svg>
             </a>
+          </div>
+        </div>
+
+        {/* Profile Photo - Right side */}
+        <div className="justify-self-end">
+          <div className="relative group">
+            <img 
+              src="/src/assets/icons/Kanish Profile.jpg" 
+              alt="Kanish Rajaraman Profile" 
+              className="w-80 h-80 md:w-96 md:h-96 rounded-3xl object-cover shadow-2xl group-hover:shadow-3xl transition-all duration-300 border-4 border-white/50 group-hover:border-blue-200/50"
+            />
+            <div className="absolute -inset-2 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
           </div>
         </div>
       </div>

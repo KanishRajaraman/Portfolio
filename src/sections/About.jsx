@@ -1,4 +1,5 @@
 import React from 'react';
+import profilePic from 'Portfolio/Kanish Profile.jpg';
 
 const About = () => {
   return (
@@ -48,7 +49,7 @@ const About = () => {
         <div className="justify-self-end">
           <div className="relative group">
             <img 
-              src="./Kanish Profile.jpg" 
+              src={profilePic} 
               alt="Kanish Rajaraman Profile" 
               className="w-80 h-80 md:w-96 md:h-96 rounded-3xl object-cover shadow-2xl group-hover:shadow-3xl transition-all duration-300 border-4 border-white/50 group-hover:border-blue-200/50"
             />

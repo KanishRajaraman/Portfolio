@@ -48,7 +48,7 @@ const About = () => {
         <div className="justify-self-end">
           <div className="relative group">
             <img 
-              src="/src/assets/icons/Kanish Profile.jpg" 
+              src="/Kanish Profile.jpg" 
               alt="Kanish Rajaraman Profile" 
               className="w-80 h-80 md:w-96 md:h-96 rounded-3xl object-cover shadow-2xl group-hover:shadow-3xl transition-all duration-300 border-4 border-white/50 group-hover:border-blue-200/50"
             />

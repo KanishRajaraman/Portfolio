@@ -14,7 +14,7 @@ export const projectData = [
     description: "An interactive dashboard for managing electric vehicle fleets, built for the Autonomous Mobility course.",
     tech: ["React", "Tailwind CSS", "Chart.js"],
     link: "https://github.com/KanishRajaraman/EV-Fleet-management"
-  }
+  },
   {
     id: 3,
     title: "Indoor Assert Tracker",

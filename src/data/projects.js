@@ -15,4 +15,12 @@ export const projectData = [
     tech: ["React", "Tailwind CSS", "Chart.js"],
     link: "https://github.com/KanishRajaraman/EV-Fleet-management"
   }
+  {
+    id: 3,
+    title: "Indoor Assert Tracker",
+    category: "Tracking system",
+    description: "Real-Time RFID-Based Tool and Gauge Tracking System for Aircraft Maintenance and Foreign Object Debris (FOD) Prevention",
+    tech: ["RFID", "SDR based RF processing", "Aruco marker tracking"]
+    link: "https://github.com/KanishRajaraman/Assert-Tracker"
+  }
 ];

@@ -18,7 +18,7 @@ export const experienceData = [
     year: "Mar 2025",
     title: "Treasurer",
     organization: "National Cadet Corps",
-    description: "A dedicated leader responsible for maintaining meticulous financial records, managing funds for unit activities, and ensuring transparency in all fiscal matters to support the mission of the National Cadet Corps.Designed a prototype dashboard for electric vehicle fleet management and optimization.",
+    description: "A dedicated leader responsible for maintaining meticulous financial records, managing funds for unit activities, and ensuring transparency in all fiscal matters to support the mission of the National Cadet Corps.",
   },
   {
     id: 4,

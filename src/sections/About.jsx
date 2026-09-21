@@ -45,18 +45,6 @@ const About = () => {
           </div>
         </div>
 
-        {/* Profile Photo - Right side */}
-        <div className="justify-self-end">
-          <div className="relative group">
-            <img 
-              src= "../Portfolio/Kanish_Profile.jpg" 
-              alt="Kanish Rajaraman Profile" 
-              className="w-80 h-80 md:w-96 md:h-96 rounded-3xl object-cover shadow-2xl group-hover:shadow-3xl transition-all duration-300 border-4 border-white/50 group-hover:border-blue-200/50"
-            />
-            <div className="absolute -inset-2 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-3xl blur opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
-          </div>
-        </div>
-      </div>
     </section>
   );
 };

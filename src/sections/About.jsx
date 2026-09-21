@@ -1,5 +1,4 @@
 import React from 'react';
-import profilePic from '../Portfolio/Kanish_Profile.jpg';
 
 const About = () => {
   return (

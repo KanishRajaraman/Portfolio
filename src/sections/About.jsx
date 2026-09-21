@@ -5,7 +5,7 @@ const About = () => {
     <section className="py-24 px-6 bg-white" id="about">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Text and Content */}
-        <div className="space-y-6">
+        <div className="max-w-2xl mx-auto space-y-6 text-center">
           <h2 className="text-4xl font-bold text-gray-900">About Me</h2>
           <p className="text-gray-600 text-lg leading-relaxed">
             I am a B.Tech Artificial Intelligence and Data Science student at Kumaraguru College of Technology. I am a patient and detail-oriented problem-solver with a strong foundation in Python, Machine Learning tools, and Data Analysis. My technical expertise is complemented by a State-level Gold Medal in RC Aero model building and flying, reflecting my passion for engineering and precision. Dedicated to the philosophy that "character is life," I strive to use my skills in AI and data-driven solutions to create a positive and sustainable impact.
